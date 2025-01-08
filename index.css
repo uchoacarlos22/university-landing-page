@@ -1,0 +1,238 @@
+/* Definindo o fundo da página */
+body {
+  background-image: url("images/fundo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Header Custom Styles */
+.navbar-custom {
+  background-color: #007bff; /* Azul escuro para identidade forte */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand .logo {
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar-custom .navbar-brand .logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar-custom .nav-link {
+  font-family: "Poppins", sans-serif; /* Fonte moderna e legível */
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link:hover {
+  color: #050248;
+}
+
+.navbar-custom .navbar-toggler {
+  border: 2px solid #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.styleCards {
+  height: 254.5px;
+}
+
+@media (max-width: 768px) {
+  .academicCard {
+    height: auto;
+  }
+}
+
+/* Acentuando o botão 'Voltar ao topo' */
+.btn-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* A estilização de fontes para os textos */
+h2,
+p {
+  font-family: "Arial", sans-serif;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .testimonial-wrapper {
+    height: 100px;
+  }
+}
+
+.testimonial-text {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+}
+
+.aspas {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .aspas {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin-right: 0;
+  }
+}
+
+.styleNav {
+  background-color: #007bff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .styleNav {
+    visibility: hidden;
+  }
+}
+
+/* Por padrão, exibe o texto inteiro na mesma linha */
+.mobile-break {
+  display: inline; /* Inline para telas maiores */
+}
+
+/* Em telas menores (mobile), quebra o texto */
+@media (max-width: 767px) {
+  .mobile-break {
+    display: block; /* Força a quebra de linha no mobile */
+  }
+}
+
+/* Estilos gerais cta*/
+.cta-section {
+  background-color: #007bff;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #ffffff;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.cta-button.primary {
+  background: #007bff;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.cta-button.primary:hover {
+  background: #ffffff;
+  color: #007bff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .cta-button:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
