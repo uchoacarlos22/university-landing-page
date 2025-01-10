@@ -1,0 +1,195 @@
+/* Estilo para o conteúdo principal */
+.main-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Header Custom Styles */
+.navbar-custom {
+  background-color: #007bff; /* Azul escuro para identidade forte */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand .logo {
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar-custom .navbar-brand .logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar-custom .nav-link {
+  font-family: "Poppins", sans-serif; /* Fonte moderna e legível */
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link:hover {
+  color: #050248;
+}
+
+.navbar-custom .navbar-toggler {
+  border: 2px solid #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.rounded-circle {
+  border: 3px solid #007bff;
+  transition: transform 0.3s;
+}
+
+.rounded-circle:hover {
+  transform: scale(1.1);
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+  width: 100%; /* Stylesheet para a página Quem Somos */
+
+  /* Global */
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+
+  h2 {
+    color: #2c3e50;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  h2,
+  p {
+    font-family: "Arial", sans-serif;
+  }
+
+  /* Header */
+  .navbar-custom {
+    background-color: #2c3e50;
+    padding: 1rem;
+  }
+
+  .navbar-custom .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: #ddd;
+    margin: 0 0.5rem;
+  }
+
+  .navbar-custom .navbar-nav .nav-link.active,
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
+
+  /* Main */
+  .container {
+    max-width: 1140px;
+  }
+
+  /* Values Section */
+  .fa-lightbulb,
+  .fa-users,
+  .fa-graduation-cap {
+    color: #2c3e50;
+    transition: color 0.3s;
+  }
+
+  .fa-lightbulb:hover,
+  .fa-users:hover,
+  .fa-graduation-cap:hover {
+    color: #ffc107;
+  }
+
+  /* Team Section */
+  .rounded-circle {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .rounded-circle:hover {
+    transform: scale(1.1);
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+
+  .footer p {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+}
+
+.image-wrapper {
+  width: 100%;
+}
+
+/* Estilo das seções de Prêmios e Colaboradores */
+section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rounded-circle {
+  border: 3px solid #f8f8f8;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rounded-circle:hover {
+  transform: scale(1.1);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+section img {
+  object-fit: cover;
+}
+
+.text-center h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #050248;
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}

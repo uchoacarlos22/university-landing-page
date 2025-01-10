@@ -1,67 +1,250 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça a história e os valores da Universidade de Tecnologia."
+    />
+    <meta name="keywords" content="quem somos, história, valores, equipe" />
+    <title>Quem Somos - Universidade de Tecnologia</title>
 
-<head>
-    <title>Quem Somos</title>
-    <meta charset="utf-8">
-</head>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="quemSomos.css" />
 
-<body background="images/fundo.png">
-   
-<table border="0" width="900" align="center">
-    <tr>
-        <td height="90"><img src="images/logo.png"></td>
-        <td align="right">
-            <a href="index.html">Home</a> |
-            <a href="quemSomos.html">Quem somos</a> | 
-           <a href="contato.html">Contato</a>
-        </td>
-    </tr>
-    
-    <tr>
-        <td colspan="2">
-            <h2>Sobre a universidade</h2>
-            <p>
-                siodyqw90eik13´pejf8uw3i0´rpic3dw7rni-013´porivn92u3
-                wtv32iweb9tyb3289wieurv09283bye-rv89u1nqw9vorj3n920e
-                w7rvhf932ni40rb23vuwey9dryu[0932onpurbv8f7u[n9v2b0wet
-                7gfh2n9u58tvbf7n82uvt]]iodyqw90eik13´pejf8uw3i0´rpic3dw7rni-013´porivn92u3
-                wtv32iweb9tyb3289wieurv09283bye-rv89u1nqw9vorj3n920e
-                w7rvhf932ni40rb23vuwey9dryu[0932onpurbv8f7u[n9v2b0wet
-                7gfh2n9u58tvbf7n82uvt]]
-            </p><br>
-            <hr>
-            <h2>5 motivos para ingressar em nossos cursos</h2>
-                <ol>
-                    <li>Material sempre atualizado</li>
-                    <li>Tablets em sala de aula</li>
-                    <li>Professores renomados</li>
-                    <li>Universidade bem avaliada</li>
-                    <li>Otima localização</li>
-                </ol>
-                <hr>
-                <h2>Objetivos</h2>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-            <p>siodyqw90eik13´pejf8uw3i0´rpic3dw7rni-013´porivn92u3
-                    wtv32iweb9tyb3289wieurv09283bye-rv89u1nqw9vorj3n920e
-                    w7rvhf932ni40rb23vuwey9dryu[0932onpurbv8f7u[n9v2b0wet
-                    7gfh2n9u58tvbf7n82uvt]]iodyqw90eik13´pejf8uw3i0´rpic3dw7rni-013´porivn92u3
-                    wtv32iweb9tyb3289wieurv09283bye-rv89u1nqw9vorj3n920e
-                    w7rvhf932ni40rb23vuwey9dryu[0932onpurbv8f7u[n9v2b0wet
-                    7gfh2n9u58tvbf7n82uvt]]</p>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center"><h2>Todos os direitos reservados</h2></td>
-    </tr>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="images/logo.png"
+              alt="Logo Universidade"
+              height="50"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-</table>
+    <main class="container mt-5">
+      <section class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4">
+          <img
+            src="images/quem-somos.jpg"
+            alt="Sobre a Universidade"
+            class="img-fluid rounded-3 shadow image-wrapper"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="text-center mb-4">Nossa História</h2>
+          <p>
+            Fundada com o objetivo de promover a excelência no ensino
+            tecnológico, a Universidade de Tecnologia tem se destacado por sua
+            inovação e compromisso com a formação de profissionais de alto
+            nível. Desde o início, buscamos criar um ambiente que valoriza o
+            aprendizado contínuo e a troca de conhecimentos.
+          </p>
+        </div>
+      </section>
 
+      <section class="row mb-5">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Nossos Valores</h2>
+          <div class="row text-center">
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-lightbulb fa-3x mb-3"></i>
+              <h5>Inovação</h5>
+              <p>Estamos sempre na vanguarda da tecnologia.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-users fa-3x mb-3"></i>
+              <h5>Colaboração</h5>
+              <p>Valorizamos o trabalho em equipe e a diversidade.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+              <h5>Excelência</h5>
+              <p>Nosso compromisso é com a qualidade do ensino.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="row mb-5">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Nossa Equipe</h2>
+          <div class="row text-center">
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/professor1.jpg"
+                alt="Professor"
+                class="rounded-circle mb-3 shadow"
+                width="150"
+                height="150"
+              />
+              <h5>Dr. Carlos Lima</h5>
+              <p>Diretor Acadêmico</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/professora1.jpg"
+                alt="Professora"
+                class="rounded-circle mb-3 shadow"
+                width="150"
+                height="150"
+              />
+              <h5>Dra. Fernanda Souza</h5>
+              <p>Coordenadora de Engenharia</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/professor2.jpg"
+                alt="Professor"
+                class="rounded-circle mb-3 shadow"
+                width="150"
+                height="150"
+              />
+              <h5>Dr. Roberto Silva</h5>
+              <p>Chefe de Pesquisa</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row mb-5">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Prêmios e Conquistas</h2>
+          <div class="row text-center">
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/premio1.jpg"
+                alt="Prêmio de Excelência Acadêmica"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Prêmio de Excelência Acadêmica</h5>
+              <p>
+                Reconhecida como a melhor universidade de tecnologia em 2024.
+              </p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/premio2.jpg"
+                alt="Certificação Internacional"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Certificação Internacional</h5>
+              <p>
+                Certificação por padrões internacionais de ensino tecnológico.
+              </p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/premio3.jpg"
+                alt="Prêmio de Inovação"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Prêmio de Inovação</h5>
+              <p>
+                Reconhecimento pela criação de projetos inovadores na área de
+                TI.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="row mb-5">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Colaboradores</h2>
+          <div class="row text-center">
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/colaborador1.png"
+                alt="Parceiro Empresa A"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Empresa A</h5>
+              <p>Parceiros em desenvolvimento de projetos acadêmicos.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/colaborador2.png"
+                alt="Parceiro Empresa B"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Empresa B</h5>
+              <p>Apoio em estágios e intercâmbios internacionais.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="images/colaborador3.png"
+                alt="Parceiro Organização C"
+                class="img-fluid rounded-circle shadow-sm mb-3"
+                width="150"
+                height="150"
+              />
+              <h5>Organização C</h5>
+              <p>Colaboração em pesquisas científicas e desenvolvimento.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="text-center footer py-4">
+      <p>
+        &copy; 2025 Universidade de Tecnologia | Todos os direitos reservados
+      </p>
+    </footer>
 
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
